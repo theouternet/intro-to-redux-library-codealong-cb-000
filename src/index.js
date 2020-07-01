@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux'; /* code change */
-import shoppingListItemReducer from './reducers/shoppingListItemReducer.js';
+import shoppingListItemReducer from './reducers/shoppingListItemReducer';
 import App from './App';
 import './index.css';
 
